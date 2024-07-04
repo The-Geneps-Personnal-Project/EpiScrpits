@@ -1,0 +1,23 @@
+{
+    "nb_teams": 2,
+    "teams": [
+        {
+            "name": "",
+            "ia_path": "[Absolute Path To Binary]",
+            "args": "-p [PORT] -h [Host] -n [Team Name]"
+        },
+        {
+            "name": "",
+            "ia_path": "[Absolute Path To Binary]",
+            "args": "-p [PORT] -h [Host] -n [Team Name]"
+        }
+    ],
+    "gui": {
+        "path": "[Absolute Path To Binary]",
+        "args": "-p [PORT] -h [HOST]"
+    },
+    "server": {
+        "path": "[Absolute Path To Binary]",
+        "args": "-p [PORT] -n [TEAMS] -x [WIDTH] -y [HEIGHT] -f [FREQUENCY] -c [NUMBER OF CLIENTS PER TEAM]"
+    }
+}
