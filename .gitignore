@@ -163,5 +163,4 @@ cython_debug/
 
 
 __pycache__
-*.csv
 */config.json
