@@ -32,6 +32,9 @@ def main():
     zappy_parser = subparsers.add_parser('zappy', help='Run Zappy tournament')
     zappy_parser.add_argument('filename', type=str, help='Path to the config file', default='ZAPPY/config.json')
 
+    synstumper_parser = subparsers.add_parser('synstumper', help='Process Stumper data')
+    synstumper_parser.add_argument('input.csv', type=str, help='Path to the CSV file to process')
+    synstumper_parser.add_argument('output.csv', type=str, help='Path to the output CSV file')
 
     args = parser.parse_args()
 
